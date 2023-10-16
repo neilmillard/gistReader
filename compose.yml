@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8050:5000"
+  redis:
+    image: "eegist:latest-python3.10"
