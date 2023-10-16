@@ -28,4 +28,4 @@ docker-build:
 	docker build -t eegist:latest-python${PYTHON_VERSION} .
 
 docker-run:
-	docker run --rm -p 8080:5000 eegist:latest-python${PYTHON_VERSION}
+	docker run --rm -p 8050:5000 eegist:latest-python${PYTHON_VERSION}
